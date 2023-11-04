@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica;
+}
+
+.hero-main,
+footer {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.hero-main .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.presentation > h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.presentation > p,
+.nav-links > .nav-link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button,
+.cta-banner {
+  background-color: #3882f6;
+  color: #fff;
+}
+
+.random-information > h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.inspiring-quote > .quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
