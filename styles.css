@@ -1,3 +1,5 @@
+/* Formatting (fonts, colors etc.) */
+
 * {
   margin: 0;
   padding: 0;
@@ -62,6 +64,12 @@ button {
   color: #1f2937;
 }
 
+.item-text {
+  color: rgb(120, 128, 138);
+}
+
+/* Layout */
+
 body {
   height: 100vh;
 }
@@ -101,4 +109,43 @@ body > * {
 
 .presentation > .hero-info {
   flex: 1 1 50%;
+}
+
+.random-information {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.random-information > h2 {
+  text-align: center;
+}
+
+.information-items {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.item {
+  width: 160px;
+}
+
+.item-img {
+  width: 160px;
+  height: 160px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+.item-text {
+  text-align: center;
+  padding: 5px;
+}
+
+.inspiring-quote {
+  background-color: #e5e7eb;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
