@@ -46,9 +46,14 @@ button,
 }
 
 button {
-  padding: 6px 24px;
+  padding: 6px 28px;
   border-radius: 5px;
   border: none;
+}
+
+.hero-info > button {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .random-information > h2 {
@@ -189,4 +194,9 @@ body > * {
 
 .cta-title {
   margin-bottom: 3px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0px;
 }
